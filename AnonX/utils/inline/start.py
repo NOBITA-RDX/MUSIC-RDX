@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᴅᴅ 𝐌ᴇ 𝐓ȏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ",
+                text="𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝐇ᴇʟᴩ",
+                text="♥ 𝐇ᴇʟᴩ ♥",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝐒ᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="♥𝐒ᴇᴛᴛɪɴɢs♥", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,26 +30,29 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᴅᴅ 𝐌ᴇ 𝐓ȏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ",
+                text="♥𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ♥",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝐇ᴇʟᴩ", callback_data="settings_back_helper"
+                text="♥ 𝐇ᴇʟᴩ ♥", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣ 𝐒ᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
+                text="♥ 𝐒ᴜᴩᴩᴏʀᴛ ♥", url="https://t.me/HORRIBLE_STUDY"
             ),
             InlineKeyboardButton(
-                text=" 𝐌ᴀɪɴᴛᴀɪɴᴇʀ ", user_id=OWNER
+                text="♥ 𝐎ᴡɴᴇʀ ♥", user_id="1777270311"
             )
         ],
         [
             InlineKeyboardButton(
-                text=" 𝐒ᴏᴜʀᴄᴇ ", url=config.UPSTREAM_REPO
+                text="♥ 𝐒ᴏᴜʀᴄᴇ ♥", url="https://t.me/RDXXDSERVER"
+            ),
+            InlineKeyboardButton(
+                text="♥ 𝐉ᴏɪɴ 𝐔s ♥", url="https://t.me/TERIMERIYAAARIYAN"  
             )
         ],
      ]
