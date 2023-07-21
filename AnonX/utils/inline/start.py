@@ -52,7 +52,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="♥ 𝐒ᴏᴜʀᴄᴇ ♥", url="https://t.me/RDXXDSERVER"
             ),
             InlineKeyboardButton(
-                text="♥ 𝐉ᴏɪɴ 𝐔s ♥", url="https://t.me/TERIMERIYAAARIYAN"  
+                text="♥ 𝐂ʜᴀᴛᴛɪɴɢ ♥", url="https://t.me/TERIMERIYAAARIYAN"  
             )
         ],
      ]
