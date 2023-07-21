@@ -13,42 +13,42 @@
     ],
     "env": {
       "API_ID": {
-        "description": "29450710",
+        "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "f4cc901231b49cf4387320be94f60d9c",
+        "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "6306462912:AAHuLgLdFDLuny3GxSlzut-Wko3GwY_Jwpk",
+        "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority",
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "˹ʀɪsʜᴜ_𝐂ʜᴀɴ ꭙ 𝐌ᴜsɪᴄ˼ 🥀",
-        "value": "",
+        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
+        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
-        "description": "1777270311",
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "BQBA9-dSJHFk3WS6hGDm0aCx6yPxqFtwvBeoqG4PzUmkIPwDnK2Boy5s2EPDLiUIpVlHv7A9rSO8BaZQb0n-FlKNV0BjUVoVFTNNl46xZqWk10vZQPAJJg_JSJfEg2pwOXoB_96yoLcxuvDXBNYYxoIZjUPaxngaRG10m4wZtvONCcVj17nwG4Xn5BrGzu22kq8iE8MMnoKOpKeHle_rhaSWB3knqy38HyztKNlce69iEFlaPyoVNn6N2l8vk6iie3H8VM7yotVKMOos-6DTc0IgUIXubPPhDQwz24xQAsEqUEQ0jRhmo4grt0ng_XRkq4V6SbFJyR9L1JvFAJO1MsEwAAAAAV8NMf0A",
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "d61672fe-0c30-408e-a897-ad0c3e1d16e0",
+        "description": "Your Heroku account's API key",
         "value": "",
         "required": false
       },
@@ -58,7 +58,7 @@
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "-1001957899595",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
         "required": true
       }
@@ -75,4 +75,4 @@
           }
       ],
       "stack": "container"
-  }
+}
