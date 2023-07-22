@@ -61,10 +61,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"
             ),
             InlineKeyboardButton(
+                text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", user_id="https://t.me/HORRIBLE_STUDY"
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+            ),
+            InlineKeyboardButton(
+                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
@@ -121,10 +129,18 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"
             ),
             InlineKeyboardButton(
+                text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", user_id="https://t.me/HORRIBLE_STUDY"
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+            ),
+            InlineKeyboardButton(
+                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
@@ -153,10 +169,18 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"
             ),
             InlineKeyboardButton(
+                text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", user_id="https://t.me/HORRIBLE_STUDY"
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+            ),
+            InlineKeyboardButton(
+                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
@@ -182,10 +206,18 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"
             ),
             InlineKeyboardButton(
+                text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", user_id="https://t.me/HORRIBLE_STUDY"
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+            ),
+            InlineKeyboardButton(
+                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
@@ -340,10 +372,18 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"
             ),
-                InlineKeyboardButton(
+            InlineKeyboardButton(
+                text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", user_id="https://t.me/HORRIBLE_STUDY"
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+            ),
+            InlineKeyboardButton(
+                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
