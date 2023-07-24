@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ʀɪsʜᴜ_ᴄʜᴀɴ ꭙ ᴍᴜsɪᴄ˼ 🥀")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐑ɪsʜᴜ_𝐂ʜᴀɴ ꭙ 𝐌ᴜsɪᴄ˼ 🥀")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1777270311").split()))
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/92f2743654fdc3dbcd56b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/e863c05efe72548759099.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/92f2743654fdc3dbcd56b.jpg"
+            START_IMG_URL = "https://graph.org/file/e863c05efe72548759099.jpg"
