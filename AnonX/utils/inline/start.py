@@ -41,7 +41,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐒ᴜᴩᴩᴏʀᴛ ✯", url="https://t.me/HORRIBLE_STUDY"
+                text="✯ 𝐒ᴜᴩᴩᴏʀᴛ ✯", chat_id="-1001834682067"
             ),
             InlineKeyboardButton(
                 text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
@@ -49,10 +49,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://t.me/Rdxnobitaserver"
+                text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", chat_id="-1001952227898"
             ),
             InlineKeyboardButton(
-                text="✯ 𝐂ʜᴀᴛᴛɪɴɢ ✯", url="https://t.me/friendshipchatting1"  
+                text="✯ 𝐂ʜᴀᴛᴛɪɴɢ ✯", -1001952227898  
                 )
         ],
         [
