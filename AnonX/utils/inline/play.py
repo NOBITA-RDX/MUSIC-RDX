@@ -61,39 +61,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐘ᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj"
+                text="✯𝐌ᴇɴᴜ✯", callback_data=f"StreamMarkup {videoid}|{chat_id}",
                 ),
             InlineKeyboardButton(
-                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311" 
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
-                ),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="↺",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
-            
-
-            InlineKeyboardButton(
-
-                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="↻",
-
-                callback_data=f"ADMIN 2|{chat_id}",    
+                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311"     
             )
         ],
     ]
@@ -278,30 +249,6 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
-                ),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="↺",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
-            
-
-            InlineKeyboardButton(
-
-                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="↻",
-
-                callback_data=f"ADMIN 2|{chat_id}", 
             )
         ],
     ]
@@ -464,31 +411,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
-                ),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="↺",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
-            
-
-            InlineKeyboardButton(
-
-                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="↻",
-
-                callback_data=f"ADMIN 2|{chat_id}", 
+                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY" 
             )
         ],
     ]
