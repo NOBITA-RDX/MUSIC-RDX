@@ -116,7 +116,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data=f"close",
             ),
         ],
     ]
@@ -144,7 +144,7 @@ def stream_markup(_, videoid, chat_id):
                 url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data=f"close",
             )
         ],
     ]
@@ -159,7 +159,7 @@ def telegram_markup(_, chat_id):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data=f"close",
             ),
         ],
     ]
@@ -364,7 +364,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close",
             )
         ],
     ]
