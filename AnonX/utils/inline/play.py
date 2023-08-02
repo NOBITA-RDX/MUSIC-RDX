@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"QueueMarkup {videoid}|{chat_id}",
+                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"PanelMarkup {videoid}|{chat_id}",
                 ),
             InlineKeyboardButton(
                 text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
@@ -334,6 +334,38 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close",
+            ),
+        ],
+    ]
+    return buttons
+   
+
+## Cpanel Markup
+
+
+def panel_markup_1(_, videoid, chat_id):
+ buttons = [
+        [
+            InlineKeyboardButton(
+                text="▷",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="☆", callback_data=f"add_playlist {videoid}"
+            ),
+            InlineKeyboardButton(
+                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯𝐏ʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
                 ),
             InlineKeyboardButton(
@@ -379,5 +411,4 @@ def queue_markup(_, videoid, chat_id):
         ],
     ]
     return buttons
-    
-    
+
