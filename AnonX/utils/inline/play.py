@@ -377,7 +377,7 @@ def panel_markup_1(_, videoid, chat_id):
                 text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
                 ),
             InlineKeyboardButton(
-                text="✯𝐂ʜᴀɴɴᴇʟ✯", url="https://t.me/HORRIBLE_STUDY",
+                text="✯𝐂ʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
              ),
         ],
         [
