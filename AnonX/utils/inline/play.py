@@ -307,7 +307,6 @@ def panel_markup_1(_, videoid, chat_id):
             )
         ],
         [
-            InlineKeyboardButton(
                 InlineKeyboardButton(
                 text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
             ),
