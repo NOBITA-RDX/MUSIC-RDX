@@ -61,10 +61,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"QueueMarkup {videoid}|{chat_id}",
+                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"PanelMarkup {videoid}|{chat_id}",
                 ),
             InlineKeyboardButton(
-                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
+                text="✯𝐎ᴡɴᴇ✯", user_id="1777270311",
             ),
         ],
         [
@@ -311,10 +311,10 @@ close_keyboard = InlineKeyboardMarkup(
             ]
         )
 
+## Cpanel Markup
 
-## Queue Markup
 
-def queue_markup(_, videoid, chat_id):
+def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
@@ -376,7 +376,53 @@ def queue_markup(_, videoid, chat_id):
 
                 text="↻",
 
-                callback_data=f"ADMIN 2|{chat_id}",               
+                callback_data=f"ADMIN 2|{chat_id}",
+            ),
+        ],
+    ]
+    return buttons
+
+## Queue Markup
+
+def queue_markup(_, videoid, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="▷",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="☆", callback_data=f"add_playlist {videoid}"
+            ),
+            InlineKeyboardButton(
+                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐏ʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                ),
+            InlineKeyboardButton(
+                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                ),
+            InlineKeyboardButton(
+                text="✯𝐂ʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
+             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐘ᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",               
             )
         ],
     ]
