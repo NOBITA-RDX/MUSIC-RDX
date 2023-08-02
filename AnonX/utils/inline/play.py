@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"queue_markup {videoid}|{chat_id}",
+                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"QueueMarkup {videoid}|{chat_id}",
                 ),
             InlineKeyboardButton(
                 text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
@@ -310,13 +310,12 @@ close_keyboard = InlineKeyboardMarkup(
                 ]    
             ]
         )
-   
 
-## Cpanel Markup
 
+## Queue Markup
 
 def queue_markup(_, videoid, chat_id):
- buttons = [
+    buttons = [
         [
             InlineKeyboardButton(
                 text="▷",
@@ -382,4 +381,3 @@ def queue_markup(_, videoid, chat_id):
         ],
     ]
     return buttons
-
