@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"PanelMarkup {videoid}|{chat_id}",
+                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"panel_markup_1 {videoid}|{chat_id}",
                 ),
             InlineKeyboardButton(
                 text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
@@ -232,6 +232,27 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐏ʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                ),
+            InlineKeyboardButton(
+                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                ),
+            InlineKeyboardButton(
+                text="✯𝐂ʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
+             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐘ᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",
+            ),
         ]
     ]
     return buttons
@@ -311,7 +332,7 @@ close_keyboard = InlineKeyboardMarkup(
             ]
         )
 
-## Cpanel Markup
+## Panel Markup
 
 
 def panel_markup_1(_, videoid, chat_id):
