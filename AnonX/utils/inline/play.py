@@ -61,15 +61,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"livestream_markup {videoid}|{chat_id}",
-                ),
+                text="✯𝐒ᴏᴜʀᴄᴇ✯", callback_data=f"PanelMarkup {videoid}|{chat_id}"
+            ),
             InlineKeyboardButton(
-                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311",
+                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
             )
         ],
     ]
@@ -378,3 +378,76 @@ def queue_markup(_, videoid, chat_id):
         ],
     ]
     return buttons
+
+
+## Cpanel Markup
+
+
+def panel_markup_1(_, videoid, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="▷",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="☆", callback_data=f"add_playlist {videoid}"
+            ),
+            InlineKeyboardButton(
+                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐏ʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}"
+                ),
+            InlineKeyboardButton(
+                text="✯𝐎ᴡɴᴇʀ✯", user_id="1777270311"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐒ᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
+                ),
+            InlineKeyboardButton(
+                text="✯𝐂ʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER"
+             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯𝐘ᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj"
+            ),
+        ],
+        [
+        InlineKeyboardButton(
+
+                text="↺",
+
+                callback_data=f"ADMIN 1|{chat_id}"
+
+            ),
+
+            
+
+            InlineKeyboardButton(
+
+                text="✯𝐂ʟᴏsᴇ✯", callback_data=f"close"
+
+            ),
+
+            InlineKeyboardButton(
+
+                text="↻",
+
+                callback_data=f"ADMIN 2|{chat_id}"
+            ),
+        ],
+    ]
+    return buttons
+
