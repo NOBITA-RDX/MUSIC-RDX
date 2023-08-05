@@ -7,7 +7,6 @@ from AnonX.utils.formatters import time_to_seconds
 
 
 ## After Edits with Timer Bar
-## After Edits with Timer Bar
 
 def time_to_sec(time: str):
     x = time.split(":")
