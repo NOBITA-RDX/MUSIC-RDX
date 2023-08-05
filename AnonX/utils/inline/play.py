@@ -197,6 +197,15 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✯Sʜᴜғғʟᴇ✯",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="✯ Lᴏᴏᴩ ✯", callback_data=f"ADMIN Loop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯Cʟᴏsᴇ✯", callback_data=f"close"
             )
         ],
