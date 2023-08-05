@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ✯",
+                text="✯Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✯",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐇ᴇʟᴩ & 𝐂ᴏᴍᴍᴀɴᴅs ✯",
+                text="✯ Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs ✯",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="✯𝐒ᴇᴛᴛɪɴɢs✯", callback_data="settings_helper"
+                text="✯Sᴇᴛᴛɪɴɢs✯", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,34 +30,34 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ✯",
+                text="✯Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✯",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐇ᴇʟᴩ & 𝐂ᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_back_helper"
+                text="✯ Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐒ᴜᴩᴩᴏʀᴛ ✯", url="https://t.me/HORRIBLE_STUDY"
+                text="✯ Sᴜᴩᴩᴏʀᴛ ✯", url="https://t.me/HORRIBLE_STUDY"
             ),
             InlineKeyboardButton(
-                text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"
+                text="✯ Oᴡɴᴇʀ ✯", user_id="1777270311"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://t.me/RDX_SERVER"
+                text="✯ Sᴏᴜʀᴄᴇ ✯", url="https://t.me/RDX_SERVER"
             ),
             InlineKeyboardButton(
-                text="✯ 𝐂ʜᴀᴛᴛɪɴɢ ✯", url="https://t.me/FriendsVempire"
+                text="✯ Cʜᴀᴛᴛɪɴɢ ✯", url="https://t.me/FriendsVempire"
                 )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐘ᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"  
+                text="✯ Yᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"  
             )
         ],
      ]
