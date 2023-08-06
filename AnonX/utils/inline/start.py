@@ -11,6 +11,12 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✯Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✯",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ✯",
+                url=f"https://t.me/{BOT_USERNAME}?startchannel=new",
             )
         ],
         [
