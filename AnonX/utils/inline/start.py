@@ -53,23 +53,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ✯", url="https://t.me/HORRIBLE_STUDY"
-            ),
+                text="🖤", url="https://t.me/+xWcg-WBN1oBjMjk1")
             InlineKeyboardButton(
-                text="✯ ᴏᴡɴᴇʀ ✯", user_id="1777270311"
-            )
-        ],
-        [
+                text="💙", user_id="1777270311")
             InlineKeyboardButton(
-                text="✯ sᴏᴜʀᴄᴇ ✯", url="https://t.me/RDX_SERVER"
-            ),
+                text="💚", url="https://t.me/+GEooO-YpKXlhNjA1")
             InlineKeyboardButton(
-                text="✯ ᴄʜᴀᴛᴛɪɴɢ ✯", url="https://t.me/FriendsVempire"
-                )
-        ],
-        [
+                text="💛", url="https://t.me/+FTpq6AVRnqMwZDRl")
             InlineKeyboardButton(
-                text="✯ ʏᴏᴜᴛᴜʙᴇ ✯", url="https://youtube.com/@LofiBoyraj"  
+                text="🧡", url="https://youtube.com/@LofiBoyraj")  
             )
         ],
      ]
