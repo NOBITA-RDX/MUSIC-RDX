@@ -61,10 +61,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴏᴜʀᴄᴇ✯", callback_data=f"PanelMarkup {videoid}|{chat_id}"
+                text="✯sᴏᴜʀᴄᴇ✯", callback_data=f"livestream_markup {videoid}|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="✯Oᴡɴᴇʀ✯", user_id="1777270311"
+                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311"
             ),
         ],
         [
@@ -85,7 +85,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
+                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
             )
         ],
     ]
@@ -197,11 +197,11 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯Sʜᴜғғʟᴇ✯",
+                text="✯sʜᴜғғʟᴇ✯",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="✯ Lᴏᴏᴩ ✯", callback_data=f"ADMIN Loop|{chat_id}"
+                text="✯ ʟᴏᴏᴩ ✯", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
@@ -250,23 +250,23 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
             ),
             InlineKeyboardButton(
-                text="✯Cʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
+                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Pʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
                 ),
             InlineKeyboardButton(
-                text="✯Oᴡɴᴇʀ✯", user_id="1777270311",
+                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Yᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",
+                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",
              ),
         ],
         [
@@ -294,7 +294,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
             ),
             InlineKeyboardButton(
                 text="✯Cʟᴏsᴇ✯",
@@ -377,23 +377,23 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯Pʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
                 ),
             InlineKeyboardButton(
-                text="✯Oᴡɴᴇʀ✯", user_id="1777270311",
+                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
+                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY",
                 ),
             InlineKeyboardButton(
-                text="✯Cʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
+                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER",
              ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Yᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",               
+                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",               
             )
         ],
     ]
@@ -425,23 +425,23 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯Pʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}"
+                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}"
                 ),
             InlineKeyboardButton(
-                text="✯Oᴡɴᴇʀ✯", user_id="1777270311"
+                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
+                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/HORRIBLE_STUDY"
                 ),
             InlineKeyboardButton(
-                text="✯Cʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER"
+                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/RDX_SERVER"
              ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Yᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj"
+                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj"
             ),
         ],
         [
