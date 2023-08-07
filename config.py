@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NobitaRdX/RISHU-CHAN
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Rdxnobitaserver")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HORRIBLE_STUDY")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+GEooO-YpKXlhNjA1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+xWcg-WBN1oBjMjk1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
