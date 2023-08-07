@@ -53,16 +53,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🖤", url="https://t.me/+xWcg-WBN1oBjMjk1")
+                text="🖤", url="https://t.me/+xWcg-WBN1oBjMjk1"),
             InlineKeyboardButton(
-                text="💙", user_id="1777270311")
+                text="💙", user_id="1777270311"),
             InlineKeyboardButton(
-                text="💚", url="https://t.me/+GEooO-YpKXlhNjA1")
+                text="💚", url="https://t.me/+GEooO-YpKXlhNjA1"),
             InlineKeyboardButton(
-                text="💛", url="https://t.me/+FTpq6AVRnqMwZDRl")
+                text="💛", url="https://t.me/+FTpq6AVRnqMwZDRl"),
             InlineKeyboardButton(
-                text="🧡", url="https://youtube.com/@LofiBoyraj")  
-            )
+                text="🧡", url="https://youtube.com/@LofiBoyraj"
+            ),
         ],
      ]
     return buttons
