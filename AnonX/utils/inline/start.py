@@ -15,17 +15,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ✯",
+                text="ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ",
                 url=f"https://t.me/{BOT_USERNAME}?startchannel=new",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs ✯",
+                text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="✯Sᴇᴛᴛɪɴɢs✯", callback_data="settings_helper"
+                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),
         ],
      ]
@@ -36,32 +36,32 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐔ʜʜ 𝐆ʀᴏᴜᴘ✯",
+                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʜ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ✯",
+                text="ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ",
                 url=f"https://t.me/{BOT_USERNAME}?startchannel=new",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_back_helper"
+                text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🖤", url="https://t.me/+xWcg-WBN1oBjMjk1"),
+                text="💙", url="https://t.me/+xWcg-WBN1oBjMjk1"),
             InlineKeyboardButton(
                 text="💚", url="https://t.me/+GEooO-YpKXlhNjA1"),
             InlineKeyboardButton(
-                text="💙", user_id="1777270311"),
+                text="🖤", user_id="1777270311"),
             InlineKeyboardButton(
                 text="💛", url="https://t.me/+FTpq6AVRnqMwZDRl"),
             InlineKeyboardButton(
-                text="🧡", url="https://youtube.com/@LofiBoyraj"
+                text="💜", url="https://youtube.com/@LofiBoyraj"
             ),
         ],
      ]
