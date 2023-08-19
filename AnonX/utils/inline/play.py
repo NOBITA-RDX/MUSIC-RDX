@@ -61,19 +61,19 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯sᴏᴜʀᴄᴇ✯", url="https://t.me/+GEooO-YpKXlhNjA1"
+                text="sᴏᴜʀᴄᴇ", url="https://t.me/+GEooO-YpKXlhNjA1"
             ),
             InlineKeyboardButton(
-                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/+xWcg-WBN1oBjMjk1"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="↺", callback_data=f"ADMIN 1|{chat_id}"),
+                text="◃◃", callback_data=f"ADMIN 1|{chat_id}"),
             InlineKeyboardButton(
                 text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
-                text="↻", callback_data=f"ADMIN 2|{chat_id}"       
+                text="▹▹", callback_data=f"ADMIN 2|{chat_id}"       
             ),
         ],
     ]
@@ -130,7 +130,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯Cʟᴏsᴇ✯", callback_data=f"close"
+                text="✯ᴄʟᴏsᴇ✯", callback_data=f"close"
             )
         ],
     ]
@@ -185,16 +185,16 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯sʜᴜғғʟᴇ✯",
+                text="sʜᴜғғʟᴇ",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="✯ ʟᴏᴏᴩ ✯", callback_data=f"ADMIN Loop|{chat_id}"
+                text="ʟᴏᴏᴩ", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Cʟᴏsᴇ✯", callback_data=f"close"
+                text="✯ᴄʟᴏsᴇ✯", callback_data=f"close"
             )
         ],
     ]
@@ -238,28 +238,28 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/+xWcg-WBN1oBjMjk1",
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1",
             ),
             InlineKeyboardButton(
-                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/+GEooO-YpKXlhNjA1",
+                text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/+GEooO-YpKXlhNjA1",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                text="ᴘʟᴀʏʟɪsᴛ", callback_data=f"add_playlist {videoid}",
                 ),
             InlineKeyboardButton(
-                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311",
+                text="𓆩🖤𓆪", user_id="1777270311",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",
+                text="ʏᴏᴜᴛᴜʙᴇ", url="https://youtube.com/@LofiBoyraj",
              ),
         ],
         [
             InlineKeyboardButton(
-                text="✯Cʟᴏsᴇ✯",
+                text="✯ᴄʟᴏsᴇ✯",
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ]
@@ -282,10 +282,10 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/+xWcg-WBN1oBjMjk1",
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1",
             ),
             InlineKeyboardButton(
-                text="✯Cʟᴏsᴇ✯",
+                text="✯ᴄʟᴏsᴇ✯",
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
@@ -365,23 +365,23 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}",
+                text="ᴘʟᴀʏʟɪsᴛ", callback_data=f"add_playlist {videoid}",
                 ),
             InlineKeyboardButton(
-                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311",
+                text="ᴏᴡɴᴇʀ", user_id="1777270311",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/+xWcg-WBN1oBjMjk1",
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1",
                 ),
             InlineKeyboardButton(
-                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/+GEooO-YpKXlhNjA1",
+                text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/+GEooO-YpKXlhNjA1",
              ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj",               
+                text="ʏᴏᴜᴛᴜʙᴇ", url="https://youtube.com/@LofiBoyraj",               
             )
         ],
     ]
@@ -413,23 +413,23 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ᴘʟᴀʏʟɪsᴛ✯", callback_data=f"add_playlist {videoid}"
+                text="ᴘʟᴀʏʟɪsᴛ", callback_data=f"add_playlist {videoid}"
                 ),
             InlineKeyboardButton(
-                text="✯ᴏᴡɴᴇʀ✯", user_id="1777270311"
+                text="𓆩🖤𓆪", user_id="1777270311"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯sᴜᴘᴘᴏʀᴛ✯", url="https://t.me/+xWcg-WBN1oBjMjk1"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1"
                 ),
             InlineKeyboardButton(
-                text="✯ᴄʜᴀɴɴᴇʟ✯", url="https://t.me/+GEooO-YpKXlhNjA1"
+                text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/+GEooO-YpKXlhNjA1"
              ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ʏᴏᴜᴛᴜʙᴇ✯", url="https://youtube.com/@LofiBoyraj"
+                text="ʏᴏᴜᴛᴜʙᴇ", url="https://youtube.com/@LofiBoyraj"
             ),
         ],
         [
