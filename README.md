@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://graph.org/file/a97bc43e500f709a4bdfc.jpg">
+  <img src="https://graph.org/file/2fbd0ca06904082ecb5e5.jpg">
 </p>
 
 <h3 align="center">
