@@ -76,11 +76,12 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/1e47c02c30d1e0c174753.jpg")
+START_IMG_URL1 = getenv("START_IMG_URL", "https://graph.org/file/1e47c02c30d1e0c174753.jpg")
+START_IMG_URL2 = getenv("START_IMG_URL", "https://graph.org/file/2fbd0ca06904082ecb5e5.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/5456ccb326f3ca2cb6218.jpg",
+    "https://graph.org/file/9db5ee218fc221462dfb0.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +131,10 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/5456ccb326f3ca2cb6218.jpg"
+            PING_IMG_URL = "https://graph.org/file/9db5ee218fc221462dfb0.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/1e47c02c30d1e0c174753.jpg"
+            START_IMG_URL1 = getenv("START_IMG_URL", "https://graph.org/file/1e47c02c30d1e0c174753.jpg")
+START_IMG_URL2 = getenv("START_IMG_URL", "https://graph.org/file/2fbd0ca06904082ecb5e5.jpg")
