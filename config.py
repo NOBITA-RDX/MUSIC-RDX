@@ -77,7 +77,6 @@ autoclean = []
 
 
 START_IMG_URL1 = getenv("START_IMG_URL", "https://graph.org/file/1e47c02c30d1e0c174753.jpg")
-START_IMG_URL2 = getenv("START_IMG_URL", "https://graph.org/file/2fbd0ca06904082ecb5e5.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -137,4 +136,3 @@ if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
             START_IMG_URL1 = getenv("START_IMG_URL", "https://graph.org/file/1e47c02c30d1e0c174753.jpg")
-START_IMG_URL2 = getenv("START_IMG_URL", "https://graph.org/file/2fbd0ca06904082ecb5e5.jpg")
