@@ -25,7 +25,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NOBITA-RDX/RDX-MUSIC
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+GEooO-YpKXlhNjA1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+m4oVCt2zFhYyMTdl")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+xWcg-WBN1oBjMjk1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/fb54868d130534aec8be7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/4d81e33fcb94648c4d1b0.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/9db5ee218fc221462dfb0.jpg",
+    "https://graph.org/file/314557031ff7ecde11f1d.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/9db5ee218fc221462dfb0.jpg"
+            PING_IMG_URL = "https://graph.org/file/314557031ff7ecde11f1d.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/fb54868d130534aec8be7.jpg")
+            START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/4d81e33fcb94648c4d1b0.jpg")
