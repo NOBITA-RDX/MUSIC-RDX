@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴏᴜʀᴄᴇ˼", url="https://t.me/+GEooO-YpKXlhNjA1"
+                text="˹sᴏᴜʀᴄᴇ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"
             ),
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+xWcg-WBN1oBjMjk1"
@@ -241,7 +241,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+xWcg-WBN1oBjMjk1",
             ),
             InlineKeyboardButton(
-                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+GEooO-YpKXlhNjA1",
+                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+m4oVCt2zFhYyMTdl",
             ),
         ],
         [
@@ -376,7 +376,7 @@ def queue_markup(_, videoid, chat_id):
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+xWcg-WBN1oBjMjk1",
                 ),
             InlineKeyboardButton(
-                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+GEooO-YpKXlhNjA1",
+                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+m4oVCt2zFhYyMTdl",
              ),
         ],
         [
@@ -424,7 +424,7 @@ def panel_markup_1(_, videoid, chat_id):
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+xWcg-WBN1oBjMjk1"
                 ),
             InlineKeyboardButton(
-                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+GEooO-YpKXlhNjA1"
+                text="˹ᴄʜᴀɴɴᴇʟ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"
              ),
         ],
         [
