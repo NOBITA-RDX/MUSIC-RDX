@@ -55,11 +55,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="💙", url="https://t.me/+xWcg-WBN1oBjMjk1"),
             InlineKeyboardButton(
-                text="💚", url="https://t.me/+m4oVCt2zFhYyMTdl"),
+                text="💚", url="https://t.me/+UWImyi3UOEoxNDE1"),
             InlineKeyboardButton(
-                text="🖤", user_id="1777270311"),
+                text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
-                text="💛", url="https://t.me/+mgEF2qU1D6EyMWI1"),
+                text="💛", url="https://t.me/+QjFjMHSviwoyNGZl"),
             InlineKeyboardButton(
                 text="💜", url="https://youtube.com/@LofiBoyraj"
             ),
