@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴏᴜʀᴄᴇ˼", url="https://t.me/+m4oVCt2zFhYyMTdl"
+                text="˹sᴏᴜʀᴄᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
             ),
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+xWcg-WBN1oBjMjk1"
@@ -69,7 +69,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="◃◃", callback_data=f"ADMIN 1|{chat_id}"),
+                text="◃◃", url="https://t.me/+m4oVCt2zFhYyMTdl"),
             InlineKeyboardButton(
                 text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
@@ -254,7 +254,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://youtube.com/@LofiBoyraj",
+                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw",
              ),
         ],
         [
@@ -381,7 +381,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://youtube.com/@LofiBoyraj",               
+                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw",               
             )
         ],
     ]
@@ -429,7 +429,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://youtube.com/@LofiBoyraj"
+                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
             ),
         ],
         [
