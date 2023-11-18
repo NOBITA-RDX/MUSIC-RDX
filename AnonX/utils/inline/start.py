@@ -21,7 +21,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="˹ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs˼",
+                text="˹ʜᴇʟᴩ˼",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -53,15 +53,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💙", url="https://t.me/+xWcg-WBN1oBjMjk1"),
+                text="💙", url="https://t.me/+WRmWApnCkrJmOGFl"),
             InlineKeyboardButton(
-                text="💚", url="https://t.me/+O65balr9MhRkM2I1"),
+                text="💚", url="https://t.me/+PtOLQT04ocMzOTJl"),
             InlineKeyboardButton(
                 text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
-                text="💛", url="https://t.me/+A8Dk4aNJet44ZDA1"),
+                text="💛", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
             InlineKeyboardButton(
-                text="💜", url="https://youtube.com/@LofiBoyraj"
+                text="💜", url="https://t.me/+A8Dk4aNJet44ZDA1"
             ),
         ],
      ]
