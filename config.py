@@ -7,18 +7,18 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("29450710"))
-API_HASH = getenv("f4cc901231b49cf4387320be94f60d9cH")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("APULI_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority", None)
-LOG_GROUP_ID = int(getenv("-1001787495771"))
+MONGO_DB_URI = getenv("MONGO_DB_URL", None)
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("ʀᴅx ᴍᴜsɪᴄ", "")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1777270311").split()))
 
-HEROKU_API_KEY = getenv("048df162-ee42-45bd-a346-16d011407e9d", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NOBITA-RDX/MUSIC-RDX")
